@@ -1,0 +1,33 @@
+```python
+#list of need to gets
+seq = ['soup','dog','salad','cat','great','soup']
+```
+
+
+```python
+#function that defines grocery list
+def grocerylist(list_of):
+    lunch = ['soup','sandwhiches','salad']
+    
+    if(list_of in lunch):
+        return True
+    else:
+        return False
+
+groc_list = filter(grocerylist, seq)
+print('Get for Lunch:')
+for lunch in groc_list:
+    print(lunch)
+    
+```
+
+    Get for Lunch:
+    soup
+    salad
+    soup
+
+
+
+```python
+
+```
